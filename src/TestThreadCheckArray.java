@@ -12,7 +12,7 @@ public class TestThreadCheckArray {
 			for (int index = 0; index < num; index++) 
 				array[index] = input.nextInt();
 			
-			System.out.println("Enter number");
+			System.out.println("Enterr number");
 			num = input.nextInt();
 			
 			SharedData sd = new SharedData(array, num);
